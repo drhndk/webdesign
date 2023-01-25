@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* slide-1 */
+.fcontainer {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(138, 27, 27, 0.521),rgba(23, 205, 211, 0.712)), url('/assets/bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-hastag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    gap: 2px;
+}
+
+p {
+    margin-top: 20px !important;
+    color: #eaeaea80;
+}
+
+h1 {
+    margin-top: -20px !important;
+}
+
+.fa-sharp {
+    margin-left: 4px;
+    font-size: 18px;
+    background-color: rgba(138, 27, 27, 0.521);
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.btn {
+    border-radius: 20px !important;
+    background-color: #ffffff15 !important;
+    margin-top: 480px;
+}
+
+.btn:hover {
+    transition: 1s;
+    background-color: black !important;
+}
+
+.fa-sharp:hover {
+    background-color: aqua ;
+}
+
+.show-arrow {
+    background-color: aqua;
+}
+
+@media screen and (max-width:478px) {
+    p {
+        margin-top: 50px !important;
+        color: #eaeaea80;
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+    .jumbotron {
+        width: 95% !important;
+        margin-left: 9px;
+        border-radius: 20px !important;
+    }
+    .category {
+        box-shadow: 2px 4px 20px black;
+    }
+    .margin-card {
+        margin-top: 10px;
+    }
+    .footer-icons {
+
+    }
+}
+
+.containerFullScreen {
+    display: flex;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* slide-2 */
+/* content */
+.content {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    font-family: sans-serif;
+    transform: translateX(100%);
+}
+
+.main {
+    transition: 1.2s;
+    transform: translateX(0);
+}
+
+
+
+.current-location {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.40);
+}
+
+.location {
+    color: black;
+    font-size: 20px;
+}
+
+.icon-menu {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: gold;
+    height: 50px;
+    font-size: 30px;
+    box-shadow:  2px 2px black;
+}
+
+.brand {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(23, 205, 211, 0.712);
+    box-shadow:  0 2px 2px black;
+}
+
+.fa-location-dot {
+    color: gold;
+    margin-right: 4px;
+    font-size: 22px;
+}
+
+.img-fluid {
+    height: 200px !important;
+    width: 100%;
+}
+
+.jumbotron {
+    background-image:linear-gradient(rgba(138, 27, 27, 0.521),rgba(23, 205, 211, 0.712)), url('/assets/cardBg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 180px !important;
+}
+
+.jumbotron-text {
+    color: bisque;
+    padding: 20px;
+}
+.text-nth2 {
+    margin-top: -10px;
+}
+
+.button {
+    width: 150px;
+    background-color: gold !important;
+}
+
+@media screen and (min-width:500px) {
+    .jumbotron {
+        margin-left: 138px;
+        border-radius: 10px;
+    }
+    .layout-margin {
+     }
+     .footer-icons {
+     }
+}
+
+/* card */
+.category {
+    cursor: pointer;
+    background: linear-gradient(rgba(138, 27, 27, 0.521),rgba(23, 205, 211, 0.712))  !important;
+    border-radius: 10px !important ;
+    transition: 0.5s;
+}
+
+.category:hover {
+    transform: scale(1.2);
+}
+/* card end */
+
+/* footer */
+.icon:hover {
+    background: -webkit-linear-gradient(rgba(23, 205, 211, 0.712),red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.fa-magnifying-glass {
+    background: linear-gradient(rgba(23, 205, 211, 0.712),red)  !important;
+    padding: 8px;
+    border-radius: 50px;
+}
+.fa-house {
+    background: -webkit-linear-gradient(rgba(23, 205, 211, 0.712),red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-house::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid red;
+    transform: scaleX(0.1);
+}
+
+/* footer end */
