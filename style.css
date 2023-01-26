@@ -63,8 +63,6 @@ h1 {
 
 @media screen and (max-width:478px) {
     .fcontainer {
-        width: 50%;
-        height: 120vh;
     }
     p {
         margin-top: 50px !important;
