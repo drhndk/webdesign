@@ -13,6 +13,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    overflow-x: hidden;
 }
 
 .home-hastag {
@@ -63,6 +64,7 @@ h1 {
 
 @media screen and (max-width:478px) {
     .fcontainer {
+        width: 100vh;
     }
     p {
         margin-top: 50px !important;
@@ -98,10 +100,10 @@ body {
 /* slide-2 */
 /* content */
 .content {
-    position: relative;
     background-color: white;
     width: 100%;
     font-family: sans-serif;
+    overflow-x: hidden;
     transform: translateX(100%);
 }
 
