@@ -108,13 +108,11 @@ body {
     width: 0;
     font-family: sans-serif;
     transform: translateX(100%);
-    transition: 1.2s;
 }
 
 .main {
     width: 100%;
     transform: translateX(0);
-    transition: 1s;
 }
 
 
