@@ -3,8 +3,6 @@ const slideStarted = document.querySelector(".content");
 
 btnStarted.addEventListener("click", () => {
   slideStarted.classList.toggle("main");
-  slideStarted.style.display = "flex";
-  slideStarted.style.flexDirection = "column";
 });
 
 const faSharp = document.querySelector(".fa-sharp");
